@@ -1,0 +1,75 @@
+GRUPO;GRADO;NOTA;VIAJE;DORMIR;MOVIL;SO
+A1;Quinta opcion o superior;8,5;75;7;Movistar/O2/Tuenti;Android
+A1;Quinta opcion o superior;7,1;90;7;Movistar/O2/Tuenti;iOS
+A1;Segunda opcion;8,63;60;6;Digi Mobil;Android
+A1;Segunda opcion;8,62;35;8;Movistar/O2/Tuenti;iOS
+A1;Tercera opcion;8,2;120;7;Movistar/O2/Tuenti;Android
+A1;Primera opcion;8,7;20;7;Jazztel/Orange/Simyo;Android
+A1;Primera opcion;7,21;20;6;Movistar/O2/Tuenti;Android
+A1;Segunda opcion;7,63;20;8;Movistar/O2/Tuenti;Android
+A1;Quinta opcion o superior;8,4;60;7;Lowi/Vodafone;iOS
+A1;Quinta opcion o superior;8,3;90;6;Lowi/Vodafone;iOS
+A1;Tercera opcion;8,2;60;6;Lowi/Vodafone;iOS
+A1;Cuarta opcion;9,1;75;7;Jazztel/Orange/Simyo;Android
+A1;Quinta opcion o superior;9,79;90;6;Jazztel/Orange/Simyo;Android
+A1;Primera opcion;10,11;15;7;Jazztel/Orange/Simyo;iOS
+A1;Primera opcion;8,02;90;8;Movistar/O2/Tuenti;Android
+A1;Primera opcion;7,31;30;6;Jazztel/Orange/Simyo;iOS
+A1;Primera opcion;7,5;120;5;Lebara/MasMovil/PepePhone/Yoigo;Android
+A1;Primera opcion;8,71;60;6;Movistar/O2/Tuenti;iOS
+A1;Segunda opcion;8,34;30;6;Jazztel/Orange/Simyo;Android
+A1;Quinta opcion o superior;9,21;30;7;Movistar/O2/Tuenti;Android
+A1;Segunda opcion;7,8;120;6;Lowi/Vodafone;Android
+A1;Segunda opcion;10,3;5;9;Lowi/Vodafone;iOS
+A1;Primera opcion;7,99;45;7;Digi Mobil;Android
+A2;Primera opcion;6,9;30;7;Otra;iOS
+A2;Segunda opcion;7,8;20;7;Otra;Android
+A2;Primera opcion;10;20;4;Lowi/Vodafone;iOS
+A2;Cuarta opcion;8,59;80;6;Jazztel/Orange/Simyo;Android
+A2;Primera opcion;7;20;8;Movistar/O2/Tuenti;Android
+A2;Primera opcion;8,05;15;6;Movistar/O2/Tuenti;Android
+A2;Primera opcion;10,8;17;6;Jazztel/Orange/Simyo;iOS
+A2;Quinta opcion o superior;7,99;90;6;Movistar/O2/Tuenti;Android
+A2;Quinta opcion o superior;8,55;120;7;Jazztel/Orange/Simyo;Android
+A2;Segunda opcion;7,34;90;7;Movistar/O2/Tuenti;iOS
+A2;Primera opcion;6,75;75;5;Jazztel/Orange/Simyo;Android
+A2;Cuarta opcion;9,56;15;7;Movistar/O2/Tuenti;Android
+A2;Cuarta opcion;7,42;60;7;Movistar/O2/Tuenti;iOS
+A2;Quinta opcion o superior;6,94;80;7;Jazztel/Orange/Simyo;Android
+A2;Tercera opcion;7,21;95;5;Jazztel/Orange/Simyo;Android
+A2;Cuarta opcion;7,68;120;5;Jazztel/Orange/Simyo;Android
+A2;Cuarta opcion;10,28;80;7;Otra;Android
+A2;Quinta opcion o superior;7,86;40;8;Movistar/O2/Tuenti;iOS
+A2;Quinta opcion o superior;10,26;105;8;Lebara/MasMovil/PepePhone/Yoigo;Android
+B1;Segunda opcion;7,27;105;6;Jazztel/Orange/Simyo;Android
+B1;Tercera opcion;5,8;120;6;Movistar/O2/Tuenti;Android
+B1;Primera opcion;7,3;60;6;Jazztel/Orange/Simyo;Android
+B1;Tercera opcion;7,14;62;7;Movistar/O2/Tuenti;Android
+B1;Tercera opcion;8,6;50;7;Movistar/O2/Tuenti;iOS
+B1;Segunda opcion;7,5;45;7;Digi Mobil;Android
+B1;Primera opcion;8;60;7;Lowi/Vodafone;Android
+B1;Primera opcion;7,54;105;8;Jazztel/Orange/Simyo;Android
+B1;Tercera opcion;7,29;30;7;Jazztel/Orange/Simyo;iOS
+B1;Primera opcion;7,83;180;7;Lebara/MasMovil/PepePhone/Yoigo;iOS
+B1;Primera opcion;6,75;45;7;Jazztel/Orange/Simyo;iOS
+B1;Quinta opcion o superior;9,81;60;7;Movistar/O2/Tuenti;Android
+B1;Primera opcion;6,8;10;8;Lowi/Vodafone;Android
+B1;Tercera opcion;6,44;45;7;Movistar/O2/Tuenti;iOS
+B1;Quinta opcion o superior;6,65;120;7;Movistar/O2/Tuenti;iOS
+B1;Cuarta opcion;7,8;45;8;Jazztel/Orange/Simyo;Android
+B1;Tercera opcion;10,27;75;6;Movistar/O2/Tuenti;iOS
+B1;Primera opcion;7,6;40;7;Otra;Android
+B1;Quinta opcion o superior;7,87;80;8;Jazztel/Orange/Simyo;Android
+B2;Primera opcion;7;15;6;Jazztel/Orange/Simyo;iOS
+B2;Primera opcion;7,08;10;7;Lowi/Vodafone;Android
+B2;Segunda opcion;7,48;38;7;Lowi/Vodafone;iOS
+B2;Quinta opcion o superior;8,07;40;6;Jazztel/Orange/Simyo;Android
+B2;Tercera opcion;5,82;55;7;Digi Mobil;Android
+B2;Primera opcion;6,5;70;6;Jazztel/Orange/Simyo;Android
+B2;Primera opcion;9,9;45;8;Digi Mobil;Android
+B2;Tercera opcion;7,5;90;6;Jazztel/Orange/Simyo;Android
+B2;Segunda opcion;6,5;80;6;Jazztel/Orange/Simyo;Android
+B2;Segunda opcion;9,46;90;7;Jazztel/Orange/Simyo;Android
+B2;Quinta opcion o superior;8;120;8;Digi Mobil;Android
+B2;Segunda opcion;7,8;120;8;Lowi/Vodafone;Android
+B2;Segunda opcion;7,65;30;8;Digi Mobil;Android

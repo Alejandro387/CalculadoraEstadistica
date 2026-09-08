@@ -1,0 +1,269 @@
+en,es
+
+Change language,Cambiar idioma
+
+Statistical Calculator,Calculadora Estadistica
+
+Data Table Editor,Editor de Tabla de Datos
+
+Upload File,Subir Archivo
+
+Choose CSV File,Elegir Archivo CSV
+
+File has header,Archivo con encabezado
+
+File encoding,Codificación del archivo
+
+Automatic parsing,Lectura automatica
+
+Column separator,Separador de columnas
+
+"Comma (,)","Coma (,)"
+
+"Semicolon (;)","Punto y coma (;)"
+
+Tab,Tab
+
+Space,Espacio
+
+Other,Otro
+
+Custom separator,Separador personalizado
+
+Decimal mark,Separador decimal
+
+Period (.),Punto (.)
+
+Please upload a CSV/TXT file,Seleccione archivo CSV/TXT
+
+Please provide a custom separator,Seleccione separador personalizado
+
+Row Operations,Ajustes de Filas
+
+Add Row,Agregar Fila
+
+Row number to delete,Fila a eliminar
+
+Delete Row,Eliminar Fila
+
+Column Operations,Ajustes de Columnas
+
+New column name,Nombre de la columna
+
+Add Column,Agregar Columna
+
+Column to delete,Columna a eliminar
+
+Delete Column,Eliminar Columna
+
+Column Types,Tipos de Columna
+
+Column,Columna
+
+Type,Tipo
+
+Nominal,Nominal
+
+Discrete,Discreta
+
+Continuous,Continua
+
+Set Type,Asignar Tipo
+
+Operations,Operaciones
+
+"Select column(s) in Column Selection to see available operations.","Seleccione columna(s) en Seleccion de Columnas para ver las operaciones disponibles."
+
+Proceed,Continuar
+
+Choose an operation,Elija una operacion
+
+No operation available,No hay operacion disponible
+
+"Select column(s) and a valid operation first.","Seleccione columna(s) y una operacion valida primero."
+
+Close,Cerrar
+
+Graphs,Graficos
+
+"Select column(s) in Column Selection to see available graphs.","Seleccione columna(s) en Seleccion de Columnas para ver los graficos disponibles."
+
+Draw,Dibujar
+
+Choose a graph,Elija un grafico
+
+No graph available,No hay grafico disponible
+
+"Select column(s) and a valid graph first.","Seleccione columna(s) y un grafico valido primero."
+
+Data Table,Tabla de Datos
+
+Column Selection,Seleccion de Columnas
+
+No columns,Sin columnas
+
+Absolute frequency table,Tabla de frecuencia absoluta
+
+Accumulated frequency table,Tabla de frecuencia acumulada
+
+Bar chart,Grafico de barras
+
+Barplot (base R),Grafico de barras (R base)
+
+Boxplot,Diagrama de cajas
+
+Cumulative sum,Suma acumulada
+
+Density plot,Grafico de densidad
+
+Histogram,Histograma
+
+Pareto chart,Grafico de Pareto
+
+Pie chart,Grafico circular
+
+Relative frequency table,Tabla de frecuencia relativa
+
+Scatter plot,Diagrama de dispersion
+
+Stem-and-leaf,Diagrama de tallo y hojas
+
+Number of bins,Numero de intervalos
+
+Correlation,Correlacion
+
+Cuasivariance,Cuasivarianza
+
+Interquartile range,Rango intercuartilico
+
+Kurtosis,Curtosis
+
+Mean,Media
+
+Median,Mediana
+
+Mode,Moda
+
+Population variance,Varianza poblacional
+
+Quantile,Cuantil
+
+"Percentiles (0-1, comma-separated)","Percentiles (0-1, separados por comas)"
+
+Range,Rango
+
+Skewness,Coeficiente de asimetria
+
+Standard deviation,Desviacion estandar
+
+Sum,Suma
+
+Summary,Summary
+
+Typical deviation,Desviacion tipica
+
+Variance,Varianza
+
+Variation coefficient,Coeficiente de variacion
+
+Title,Titulo
+
+X axis label,Etiqueta del eje X
+
+Y axis label,Etiqueta del eje Y
+
+Bar colour,Color de barras
+
+Box colour,Color de cajas
+
+Line colour,Color de linea
+
+Curve colour,Color de curva
+
+Point colour,Color de puntos
+
+Count,Frecuencia
+
+Density,Densidad
+
+Observation,Observacion
+
+Cumulative sum of %s,Suma acumulada de %s
+
+Bandwidth adjustment,Ajuste del ancho de banda
+
+Point size,Tamano del punto
+
+Scale,Escala
+
+Redraw,Redibujar
+
+Colours,Colores
+
+Set colour vector,Definir vector de colores
+
+Pick a colour,Elegir un color
+
+Add colour,Agregar color
+
+Colour vector is empty,El vector de colores esta vacio
+
+Colour vector set (%d colours),Vector de colores definido (%d colores)
+
+Not valid colours: %s,Colores no validos: %s
+
+"Resolution (width, height)","Resolucion (ancho, alto)"
+
+Not a valid resolution: use two positive numbers separated by a comma,Resolucion no valida: use dos numeros positivos separados por una coma
+
+Download,Descargar
+
+"Not a valid resolution: use two positive numbers separated by a comma, at most %d each","Resolucion no valida: use dos numeros positivos separados por una coma, como maximo %d cada uno"
+Error while drawing the graph,Error al dibujar el gráfico
+
+Absolute frequency table including marginal frequencies (margins),Tabla de frecuencias absolutas que incluye frecuencias marginales (márgenes)
+
+Relative frequency table including marginal frequencies,Tabla de frecuencias relativas que incluye frecuencias marginales
+
+Conditional relative frequency table including marginal frequencies,Tabla de frecuencias relativas condicionadas que incluye frecuencias marginales
+
+Marginal means,Medias marginales
+
+Marginal medians,Medianas marginales
+
+Marginal modes,Modas marginales
+
+Marginal variances,Varianzas marginales
+
+Marginal standard deviations,Desviaciones estándar marginales
+
+Marginal quartiles,Cuartiles marginales
+
+Conditional means,Medias condicionadas
+
+Conditional medians,Medianas condicionadas
+
+Conditional modes,Modas condicionadas
+
+Conditional variances,Varianzas condicionadas
+
+Conditional standard deviations,Desviaciones estándar condicionadas
+
+Conditional quartiles,Cuartiles condicionados
+
+Margin (1 or 2),Margen (1 o 2)
+
+Show regression line,Mostrar recta de regresion
+
+Hide regression line,Ocultar recta de regresion
+
+Value,Valor
+
+Decimal places,Decimales
+
+Vertical barplot with labels,Grafico de barras vertical con etiquetas
+
+Label 1,Etiqueta 1
+
+Label 2,Etiqueta 2
+
