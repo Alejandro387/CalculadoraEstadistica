@@ -2,6 +2,64 @@
 # It loads the packages, finds the app folder, and builds the app environment.
 # Then it loads all code files in order and starts Shiny.
 
+# This block chooses the port and the host of the app.
+# The default port and host are used by every launch; an Rscript.exe launch
+# can override them with the --port= and --server_mode parameters. A wrong or
+# already-taken port stops the app with an error before anything else loads.
+default_port <- 6357
+
+# This line pins the default port for every way of launching the app.
+options(shiny.port = default_port)
+
+# This helper checks that nothing is serving on a port already.
+# A server that is listening accepts a connection, so a successful
+# connection means the port is taken. (On Windows, httpuv, which shiny
+# uses, can bind a port over another server, so testing the bind is
+# not enough.)
+port_is_free <- function(port) {
+  taken <- tryCatch({
+    con <- socketConnection("127.0.0.1", port, open = "r", timeout = 1)
+    close(con)
+    TRUE
+  }, error = function(e) FALSE)
+  if (taken) return(FALSE)
+  socket <- tryCatch(serverSocket(port), error = function(e) NULL)
+  if (is.null(socket)) return(FALSE)
+  close(socket)
+  TRUE
+}
+
+# This helper reads the --server_mode parameter of the command line,
+# e.g. Rscript.exe app.R --server_mode. Without it, the default serves
+# only this machine, and --server_mode serves every machine of the
+# local network.
+command_line_host <- function() {
+  if (any(commandArgs() == "--server_mode")) return("0.0.0.0")
+  "127.0.0.1"
+}
+
+# This helper reads the --port= parameter of the command line,
+# e.g. Rscript.exe app.R --port=4321, and stops when the port is
+# invalid or not available.
+command_line_port <- function() {
+  port_args <- grep("^--port=", commandArgs(), value = TRUE)
+  if (!length(port_args)) return(default_port)
+  port <- suppressWarnings(as.integer(sub("^--port=", "", port_args[1])))
+  if (is.na(port) || port < 1 || port > 65535) {
+    stop("Invalid --port parameter: '", port_args[1],
+         "'. Use a port number between 1 and 65535.")
+  }
+  if (!port_is_free(port)) {
+    stop("Port ", port, " is not available; it may already be in use.")
+  }
+  port
+}
+
+# These lines resolve the port and the host before anything else is
+# loaded, so a wrong parameter stops the app immediately.
+launch_port <- command_line_port()
+launch_host <- command_line_host()
+
 # This block installs and loads the packages that the app needs.
 required_packages <- c("shiny", "bslib", "DT", "ggplot2", "qcc", "e1071", "shiny.i18n", "colourpicker")
 for (package in required_packages) {
@@ -82,5 +140,14 @@ source(app_file("core", "ui_helpers.R"), local = app_env)
 source(app_file("core", "ui.R"), local = app_env)
 source(app_file("core", "server.R"), local = app_env)
 
-# This line starts the Shiny app.
-shinyApp(app_env$ui, app_env$server)
+# This block starts the Shiny app.
+# Under RStudio (Run App), the file returns the app object and the launcher
+# manages the app. Under Rscript.exe, the app is served directly on the
+# port and host chosen at the top, and a failed port stops the launch with
+# an error.
+app <- shinyApp(app_env$ui, app_env$server)
+if (any(grepl("^--file=", commandArgs()))) {
+  runApp(app, port = launch_port, host = launch_host)
+} else {
+  app
+}
