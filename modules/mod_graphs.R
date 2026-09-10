@@ -325,7 +325,7 @@ mod_graphs_server <- function(id, store) {
       on.exit(grDevices::dev.off(), add = TRUE)
       tryCatch({
         result <- run_graph(graph_data(), current$name, current$cols, params)
-        if (ggplot2::is.ggplot(result)) print(result)
+        if (ggplot2::is_ggplot(result)) print(result)
         TRUE
       }, error = function(e) FALSE)
     }

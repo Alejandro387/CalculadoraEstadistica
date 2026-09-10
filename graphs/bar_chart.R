@@ -6,7 +6,8 @@ register_graph(
     # Count the unique, non-missing values to pick one colour per bar.
     n_colours <- length(unique(df[[cols[1]]][!is.na(df[[cols[1]]])]))
     bar_colours <- graph_colours(params$colours, n_colours)
-    ggplot(df, aes(x = .data[[cols[1]]], fill = .data[[cols[1]]])) +
+    # factor() so numeric discrete columns don't drop the fill aesthetic
+    ggplot(df, aes(x = .data[[cols[1]]], fill = factor(.data[[cols[1]]]))) +
       geom_bar() +
       scale_fill_manual(values = bar_colours) +
       guides(fill = "none") +
